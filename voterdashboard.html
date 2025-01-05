@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Dashboard - Online Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #b05d85;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #131513;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        a {
+            color: #121b12;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+            background-color: #e8f5e9;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            background-color: #c8e6c9;
+            text-decoration: underline;
+        }
+
+        a:focus {
+            outline: none;
+        }
+
+        /* Dashboard Styles */
+        .dashboard-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .dashboard-section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* General Button Styling */
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #3d493e;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            section {
+                padding: 10px;
+            }
+
+            a {
+                width: 100%;
+                text-align: center;
+            }
+
+            footer {
+                position: relative;
+                bottom: unset;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Voter Dashboard</h1>
+    
+</header> 
+
+<section>
+    <h2>Your Elections</h2>
+    <p>Choose an election to cast your vote.</p>
+    <a href="vote.html">Vote Now</a>
+</section>
+
+<section>
+    <h2>Election History</h2>
+    <p>View your previous votes.</p>
+    <a href="vote history.html">View History</a>
+</section>
+
+<section>
+    <a href="logout.html">Logout</a>
+</section>
+<footer>
+    <p>&copy; 2025 Online Voting System | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

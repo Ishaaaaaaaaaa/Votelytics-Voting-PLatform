@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Status - Online Voting System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #212721;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .status {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .status p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .status-result {
+            padding: 10px 20px;
+            background-color: #e8f5e9;
+            border: 1px solid #a66c83;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            color: #99567f;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #383636;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Election Status</h1>
+</header>
+
+<div class="container">
+    <h2>Current Election Results</h2>
+    <div class="status">
+        <p><strong>Election Name:</strong> Presidential Election 2025</p>
+        <p><strong>Status:</strong> Ongoing</p>
+        <div class="status-result">
+            Votes Counted: 1,250,000<br>
+            Total Votes: 2,000,000<br>
+            Remaining Votes: 750,000
+        </div>
+    </div>
+
+    <a href="dashboard.html" class="back-link">Back to Dashboard</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 Online Voting System | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
